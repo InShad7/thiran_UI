@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'view/home/home_screen.dart';
+import 'package:thiran/view/home/widget/bottom_nav_bar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomeScreen(),
+      home: BottomNavBar(),
     );
   }
 }

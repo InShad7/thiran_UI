@@ -11,17 +11,19 @@ class UserName extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.only(left: 15),
       width: mWidth,
-      height: mHeight! / 8,
+      height: mHeight! / 9,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          //greetings
           CustomText(
             title: 'Hello',
             color: grey,
             fontSize: 34,
             fontWeight: FontWeight.w500,
           ),
+          //username
           CustomText(
             title: 'Alex Marconi',
             color: black,

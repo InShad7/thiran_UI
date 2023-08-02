@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:thiran/view/home/home_screen.dart';
 
@@ -14,6 +13,7 @@ class CustomText extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       title,
+      maxLines: 1,
       style: TextStyle(
         fontSize: mHeight! / fontSize,
         fontWeight: fontWeight,
